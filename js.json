@@ -50,6 +50,7 @@
 {"key":"drpy_js_YOKE影视","name":"影视 | YOKE影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/YOKE影视.js"},
 {"key":"drpy_js_UM电影","name":"影视 | UM电影[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/UM电影.js"},
 {"key":"drpy_js_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
+{"key":"drpy_js_热播之家","name":"影视 | 热播之家[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/热播之家.js"},
 {"key":"drpy_js_云镜影视","name":"影视 | 云镜影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/云镜影视.js"},
 {"key":"drpy_js_纽约影院","name":"影视 | 纽约影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/纽约影院.js"},
 {"key":"drpy_js_开眼视频","name":"影视 | 开眼视频[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/开眼视频.js"},
