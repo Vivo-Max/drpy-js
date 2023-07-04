@@ -62,6 +62,7 @@
 {"key":"drpy_js_美视网","name":"影视 | 美视网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/美视网.js"},
 {"key":"drpy_js_91free","name":"影视 | 91free[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/91free.js"},
 {"key":"drpy_js_LIBVIO","name":"影视 | LIBVIO[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/LIBVIO.js"},
+{"key":"drpy_js_LIBVIO2","name":"影视 | LIBVIO2[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/LIBVIO2.js"},
 {"key":"drpy_js_HDmoli","name":"影视 | HDmoli[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/HDmoli.js"},
 {"key":"drpy_js_Voflix","name":"影视 | Voflix[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/Voflix.js"},
 {"key":"drpy_js_YOKE影视","name":"影视 | YOKE影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/YOKE影视.js"},
