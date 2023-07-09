@@ -17,7 +17,7 @@ var rule = {
             "Referer": "https://servicewechat.com/wx2f9b06c1de1ccfca/84/page-frame.html",
             // "content-type": "application/json",
             "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.9.501 NetType/WIFI MiniProgramEnv/Windows WindowsWechat"
-    },
+},
     timeout:5000,
     class_name:'热门电影&热播剧集&热播综艺&电影筛选&电视筛选&电影榜单&电视榜单',
     class_url:'hot_gaia&tv_hot&show_hot&movie&tv&rank_list_movie&rank_list_tv',
