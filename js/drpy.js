@@ -10,6 +10,7 @@ var rule = {
     // 分类链接fypage参数支持1个()表达式
     url:'/?pg=fypage&class=fyclass&douban=$douban',
     filter_url:'fl={{fl}}',
+    图片来源:'@Referer=https://api.douban.com/@User-Agent=Mozilla/5.0%20(Windows%20NT%2010.0;%20Win64;%20x64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/113.0.0.0%20Safari/537.36',
     headers:{
             "Host": "frodo.douban.com",
             // "Host": "api.douban.com",
@@ -17,7 +18,7 @@ var rule = {
             "Referer": "https://servicewechat.com/wx2f9b06c1de1ccfca/84/page-frame.html",
             // "content-type": "application/json",
             "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36 MicroMessenger/7.0.9.501 NetType/WIFI MiniProgramEnv/Windows WindowsWechat"
-},
+    },
     timeout:5000,
     class_name:'热门电影&热播剧集&热播综艺&电影筛选&电视筛选&电影榜单&电视榜单',
     class_url:'hot_gaia&tv_hot&show_hot&movie&tv&rank_list_movie&rank_list_tv',
