@@ -1,5 +1,6 @@
 {"spider":"./f.jar",
  "sites":[
+{"key":"影視","name":"影視[嫖他]","type":3,"api":"csp_YingShi"},
 {"key":"drpy_js_JRKAN直播","name":"体育 | JRKAN直播[js]","type":3,"api":"./lib/drpy.min.js","ext":"./js/JRKAN直播.js"},
 {"key":"drpy_js_抓饭体育","name":"体育 | 抓饭体育[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/抓饭体育.js"},
 {"key":"drpy_js_武享吧","name":"体育 | 武享吧[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/武享吧.js"},
