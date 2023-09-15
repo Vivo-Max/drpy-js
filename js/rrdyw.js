@@ -91,10 +91,10 @@ var rule = {
             if (burl.startsWith("https://www.aliyundrive.com/s/")) {
                 if (TABS.length == 1) {
                     burl = "push://" + encodeURIComponent(burl);
-                   // burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&confirm=0&url=" + encodeURIComponent(burl);
+                  //  burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&confirm=0&url=" + encodeURIComponent(burl);
                 } else {
-                burl = "push://" + encodeURIComponent(burl);
-                   // burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(burl);
+                    burl = "push://" + encodeURIComponent(burl);
+                  //  burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(burl);
                 }
                 loopresult = title + '$' + burl;
                 lista.push(loopresult);
