@@ -1,6 +1,6 @@
-import {load, _, Uri} from './lib/cat.js';
-import {log} from './lib/utils.js';
-import {initAli, detailContent, playContent}  from './lib/ali.js';
+import {load, _, Uri} from 'assets://js/lib/cat.js';
+import {log} from 'assets://js/lib/utils.js';
+import {initAli, detailContent, playContent}  from 'assets://js/lib/ali.js';
 
 let siteKey = 'wogg';
 let siteType = 0;

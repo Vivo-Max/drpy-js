@@ -22,25 +22,27 @@ async function init(ext) {
     if (ext.indexOf('http') == 0) {
         root = ext;
     }
+}
 
-    const purl = getAddress(true) + 'webparse/' + wpurl + '<<eval:"ok"?load=html';
+async function home(filter) {
+    const purl = getAddress(true) + 'webparse/' + wpurl + '<<eval:"ok"?load=html&&init=1';
     console.log(purl);
     
     const res = await req(purl, {
         method: 'POST',
-        data: wpHtml
+        data: wpHtml,
+        postType: 'text'
     });
     console.log("loadWebHtml: " + res.content);
-}
-
-async function home(filter) {
+    
+    
     const cate = "电影#国产#美剧#韩剧#日剧#动漫#纪录";
     const cateFilter = "动作#爱情#剧情#科幻#恐怖#动画#喜剧#犯罪";
     
     let classes = [];
     let filters = {};
     
-    const value = [];
+    const value = [{n:"全部", v:""}];
     for (const v of cateFilter.split('#')) {
         value.push({n: v, v: v});
     }
@@ -97,7 +99,7 @@ async function category(tid, page, filter, extend) {
     let videos = [];
     if (page < 1) page = 1;
     
-    const label = extend.label ? '/' + extend.label : '';
+    const label = (extend.label && extend.label!='' ? '/' + extend.label : '');
 
     const url = `${root}/video/${tid}${label}?page=${page}&size=18`;
     console.log(url);
@@ -167,7 +169,8 @@ async function detail(tid) {
     res = await req(purl, {
         headers: header,
         method: 'POST',
-        data: urls
+        data: urls,
+        postType: 'text'
     });
     // console.log(res.content);
     
