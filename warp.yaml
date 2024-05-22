@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name:  WARP,type: wireguard,server: 162.159.195.188:7559,port: 端口,ip: 172.16.0.2,public-key: dc9q2BWSHgbYOWCszB8iwYTKYKishXwqrGe4K4EzRAw=,private-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,mtu: 1280,udp: true}
+  - {name:  WARP,type: wireguard,server: 162.159.195.188:7559,port: 40000,ip: 172.16.0.2,public-key: dc9q2BWSHgbYOWCszB8iwYTKYKishXwqrGe4K4EzRAw=,private-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=,mtu: 1280,udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
